@@ -35,7 +35,7 @@ variable vm_prefix {
 
 variable vm_count {
   type        = number
-  description = "Number of K3s instances to create"
+  description = "Number of RKE instances to create"
 }
 
 variable vm_datastore {
@@ -76,6 +76,11 @@ variable vm_gateway {
 variable vm_dns {
   type        = string
   description = "IP address of DNS server"
+}
+
+variable vm_template {
+  type        = string
+  description = "Name of VM template to use"
 }
 
 variable lb_address {

@@ -78,6 +78,11 @@ variable vm_dns {
   description = "IP address of DNS server"
 }
 
+variable vm_template {
+  type        = string
+  description = "Name of VM template to use"
+}
+
 variable vm_ssh_key {
   type        = string
   description = "SSH key to add to the cloud-init for user access"
