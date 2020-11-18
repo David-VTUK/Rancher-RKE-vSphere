@@ -1,11 +1,11 @@
-# Rancher and K3s on vSphere Terraform Script
+# Rancher and RKE on vSphere Terraform Script
 
 ![Architecture Diagram](./Images/Architecture.png)
 
 This repo creates the following:
 
 * 1x NGINX Loadbalancer
-* 3x K3S Nodes leveraging Embedded HA, forming a K8s Cluster
+* 3x RKE Nodes leveraging Embedded HA, forming a K8s Cluster
 * Installation of `Cert-Manager` and `Rancher` 
 
 # Prerequisites
