@@ -1,4 +1,4 @@
-# Rancher and K3s on vSphere Terraform Script
+# Rancher and RKE on vSphere Terraform Script
 
 ![Architecture Diagram](./Images/Architecture.png)
 
