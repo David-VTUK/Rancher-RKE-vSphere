@@ -27,8 +27,6 @@ lb_netmask    = "24"
 lb_gateway    = "172.16.10.1"
 lb_dns        = "172.16.10.30"
 
-k3s_secret = "S87sd6f7od87D96Fd"
-
 certmanager_version = "0.15.0"
 
 rancher_hostname    = "rancher.somedomain.co.uk"
